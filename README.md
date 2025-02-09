@@ -1,17 +1,28 @@
 # FRB-randomness-chaos-analysis
 FRB randomness-chaos analysis
 
-Part one. 
-Load data
-Part two. 
-found out the most number of bursts and second most number of bursts group
-Part three.
-found the parameters we wanted arrival time, burst energy, and center frequency 
-Part four.
-calculate waiting time, energy change, center frequency change
-claculate LLE at this place
-Part five. 
-defines the function we need
+Part one. <br>
+
+Load data<be>
+
+Part two. <be>
+
+found out the most number of bursts and second most number of bursts group<br>
+
+Part three.<br>
+
+found the parameters we wanted arrival time, burst energy, and center frequency<br>
+ 
+Part four.<br>
+
+calculate waiting time, energy change, center frequency change<br>
+
+claculate LLE at this place<br>
+
+Part five. <br>
+
+defines the function we need<br>
+
 1. ApEn function
 def ApEn(U, m, r) -> float:
     """Approximate_entropy."""
@@ -36,8 +47,13 @@ def PI(original, shuffle):
     ApEn_shuffle_max = np.array(shuffle.max())
     PI = ApEn_max/ApEn_shuffle_max
     return np.mean(PI), np.std(PI)
-Part six.
-calculate ApEn on our array
-original/shuffle(N=100)
-Part seven.
-calculate PI
+Part six.<br>
+
+calculate ApEn on our array<br>
+
+original/shuffle(N=100)<br>
+
+Part seven.<br>
+
+calculate PI<br>
+
